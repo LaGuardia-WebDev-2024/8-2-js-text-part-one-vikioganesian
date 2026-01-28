@@ -6,9 +6,40 @@ void setup(){
 //🎯Variable Declarations Go Here
 
 
+
 //🟢Draw Function - Runs on Repeat
 draw = function(){  
-  background(255,255,255);
+  background(0,0,0);
+
+
+
+//headline
+  textSize(30);
+fill(224, 144, 181);
+text("My Favorite Foods",170,70);
+
+
+
+//Foods
+textSize(20);
+fill(177, 224, 166);
+text("poke bowl",170,100);
+textSize(20);
+fill(215, 177, 252);
+text("shrimp salad",170,130);
+textSize(20);
+fill(181, 83, 144);
+text("sour skittles",170,160);
+textSize(20);
+fill(130, 199, 217);
+text("raspberry",170,190);
+
+
+
+
+
+
+
   
   if(mousePressed){
     showXYPositions();
